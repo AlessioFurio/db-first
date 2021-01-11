@@ -1,0 +1,16 @@
+id --> 						INT, PRIMARY KEY(=> AUTO_INCREMENT, NOT NULL, UNIQUE, INDEX)
+marca -->					VARCHAR(100) - NOT NULL
+modello -->					VARCHAR(100) - NOT NULL
+tipologia -->					VARCHAR(100) - NOT NULL
+anno -->					YEAR         - NOT NULL
+prezzo (999.999,99€) -->			DECIMAL(8,2) - NULL
+km (300.000 KM)	-->				MEDIUMINT    - NOT NULL
+cambio (manuale = 0/automatico = 1) -->		TINYINT      - NULL, DEFAULT(0)
+carburante -->					VARCHAR(100) - NOT NULL 
+porte -->					TINYINT      - NULL, DEFAULT(5)
+posti -->					TINYINT	     - NULL, DEFAULT(5)
+colore -->					VARCHAR(100) - NULL
+classe emissioni -->				TINYINT      - NULL
+
+
+
